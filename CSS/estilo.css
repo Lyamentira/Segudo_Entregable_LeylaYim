@@ -1,0 +1,65 @@
+/* ======= PARA TODOS========== */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*{font-family: 'Carter One', cursive;
+    }
+
+/* ===========HEADER================= */
+
+.logo{
+    width: 70px;
+}
+
+.fondoHeader{
+    background-color: #7fffd4;
+}
+
+/* =============BOTONES===================== */
+
+.botonL{
+    background-color: #fffaac;
+    color: black;
+    
+}
+
+.botonL:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.carro{
+    background-color: aquamarine;
+    color: black;
+    
+}
+
+.carro:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+
+}
+
+/* =============== DIVISIÓN ================ */
+
+.division{
+    height: 40px;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: center;
+}
+
+.division:hover {
+    height: 40px;
+    background-color: #fffaac;        
+    }
+    
+/* =============== LOGO FOOTER=============== */
+
+.logo_footer{
+    width: 100px;
+
+}
+
+
