@@ -14,12 +14,25 @@
     background-color: #7fffd4;
 }
 
+
+.menu_item a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu_item.active a,
+.menu_item a:hover {
+    text-decoration: underline;
+}
+
+.menu_item 
+
+
 /* =============BOTONES===================== */
 
 .botonL{
-    background-color: #fffaac;
+   background-color: black !important ;
     color: black;
-    
 }
 
 .botonL:hover{
@@ -29,7 +42,7 @@
 }
 
 .carro{
-    background-color: aquamarine;
+    background-color: #7fffd4;
     color: black;
     
 }
@@ -54,7 +67,16 @@
     height: 40px;
     background-color: #fffaac;        
     }
-    
+
+    /* ================ Tarjeta borde===================  */
+
+.tarjeta{
+/*     border: 1px red solid; */
+    padding: 5px;
+    box-shadow: 15px 15px 20px #fffaac;        
+
+}
+
 /* =============== LOGO FOOTER=============== */
 
 .logo_footer{
@@ -62,4 +84,7 @@
 
 }
 
+.abajo{
+    margin-top: 10px;
+}
 
