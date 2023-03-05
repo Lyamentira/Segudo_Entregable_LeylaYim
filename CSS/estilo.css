@@ -16,7 +16,7 @@
 
 
 .menu_item a {
-    color: black;
+    color: #32B6F1;
     text-decoration: none;
 }
 
@@ -25,13 +25,10 @@
     text-decoration: underline;
 }
 
-.menu_item 
-
-
 /* =============BOTONES===================== */
 
 .botonL{
-   background-color: black !important ;
+   background-color: #fffaac;
     color: black;
 }
 
@@ -68,7 +65,7 @@
     background-color: #fffaac;        
     }
 
-    /* ================ Tarjeta borde===================  */
+/* ================ Tarjeta borde===================  */
 
 .tarjeta{
 /*     border: 1px red solid; */
@@ -84,7 +81,85 @@
 
 }
 
-.abajo{
-    margin-top: 10px;
+/* .abajo{ */
+/*     margin-top: 10px; */
+/* } */
+
+footer{
+   min-height: 200px;
+   background-color: aquamarine;
+}
+
+.cuadro{
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px #ffffff;
+
+}
+
+.iconos_redes a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 2px;
+    margin-bottom: 10px;
+    border: 2px solid #32B6F1;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos_redes i{
+    color:#32B6F1;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos_redes a:hover{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    }
+
+.iconos_redes a:hover i{
+    color: #2FA83A;}
+
+
+/* =================================NOSOTROS /Equipo =============================*/
+
+.equipo{
+padding: 40px 40px 80px 40px;
+
+}
+
+/* ==================================CONTÁCTANOS====================================== */
+
+.foto_contacto{
+  width: 200px;
+  margin-top: -8rem;
+ 
+} 
+#contenedor-formulario{ 
+    border: #32B6F1 5px solid;
+    padding: 20px;
+   }
+
+.b_contac{
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border:none;
+    color: white;
+  }
+
+.b_contac:hover{
+    cursor:pointer;
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.b_contac:active{
+    transform:translateY(3px);
 }
 
