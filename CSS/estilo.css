@@ -3,7 +3,8 @@
   font-family: "Carter One", cursive;
 }
 
-/* ============= ESTILO VARIABLES=================== */
+/* ============= ESTILO VARIABLES=================== */ /* MIXIN */
+/*HEADER */
 .logo {
   width: 70px;
 }

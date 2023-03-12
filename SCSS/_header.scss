@@ -1,3 +1,11 @@
+/* MIXIN */
+@mixin ejemplo{
+	color: $color_1;
+	text-decoration: none;
+}
+
+ /*HEADER */
+
 .logo {
 	width: 70px;
 }
@@ -6,8 +14,8 @@
 }
 .menu_item {
 	a {
-		color: $color_1;
-		text-decoration: none;
+		@include ejemplo;
+		
 		&:hover {
 			text-decoration: underline;
 		}
@@ -36,10 +44,7 @@
 		border: 1px solid black;
 	}
 }
-
-
-
-
+ 
 
 
 
